@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    
+}
+
+.intro{
+    background-image: url("../images/cont.jpg");
+    width: 100%;
+
+    color: papayawhip
+    
+}
+.aboutMe{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 66%;
+}
+.centered {
+    text-align:right;
+    margin:1%;
+  }
+#image{
+      margin-top: 1%;
+      border:3px solid;
+      width:210px; 
+      height:250px;
+  }
+  
+
+  .table{
+      padding-bottom: 2%
+  }
+  /* ------------------------------------------------------------------------------------------------------------------------ */
+#edu{
+    /* background-image: url("170844.jpg"); */
+    background-image: url("../images/cont.jpg");
+    text-align: center;
+    position: relative;
+}
+.imageE{
+    filter: invert(1);
+    padding-bottom: 25px
+    /* border: 2px solid */
+ }
+ .skl{
+     color: aliceblue;
+     font-size:150%;
+     text-align: center;
+ }
+ 
+ #mid{
+    position: relative;
+    top: 10%;
+    left:35%;
+    width:28%;
+    text-align: center;
+    /* height: 100%; */
+     
+}
+#ten{
+    position: absolute;
+    top: 25%;
+    right:5%;
+    width:43%;
+    height: 21%;
+}
+#twe{
+
+    position: absolute;
+    top: 50%;
+    right:5%;
+    width:43%;
+    height: 22%;
+}
+#uni{
+
+    position: absolute;
+    top: 77%;
+    right:5%;
+    width:43%;
+    height:21% ;
+}
+
+ .image{
+     /* border-radius: 50%; */
+     filter: invert(1);
+     margin-left:3%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+
+
+ }
+ 
+ .image:hover,.im:hover,.imageE:hover{
+    
+     transform: scale(1.25)
+ }
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+ #skill{
+    background-image: url("../images/cont.jpg")
+ }
+ #project{
+    background-image: url("../images/cont.jpg");
+    position: relative;
+ }
+ .proj{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 60%;   
+ }
+ .git{
+    position: absolute;
+    top:30%;
+    right: 2%;
+    width: 30%;
+    height: 60%;
+    border: 1px solid white;
+    
+ }
+ li{
+     color:darkkhaki;
+     
+ }
+ #contact{
+     color: whitesmoke;
+    background-image: url("../images/cont.jpg");
+ }
+ 
+ .lt{
+     text-align: right
+ }
+ .rt{
+    text-align: left
+}
+.ctr{
+    text-align: center;
+    font-size: 170%
+}
+.ctrl{
+    text-align: center;
+    font-size: 170%;
+    color:gold
+}
+.ctr2{
+    text-align: center;
+    font-size: 170%;
+    color:yellow
+}
+td{
+    color:whitesmoke
+}
