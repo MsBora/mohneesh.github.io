@@ -26,6 +26,7 @@ function clickhandler(){
   
        Object.keys(x).forEach((key)=>{
            y =document.getElementsByTagName('a')
+           console.log(y)
            Object.keys(y).forEach((i)=>{
             if (y[i].id === key) { 
               y[i].href= x[key].html_url
